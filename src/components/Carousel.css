@@ -1,1 +1,64 @@
 /* write your carousel css in this file */
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.leftarrow:hover,
+.rightarrow:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.rightarrow {
+    margin-left: 40px;
+}
+
+.leftarrow{
+    margin-right: 40px;
+}
+
+.title {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 12px;
+    color: black;
+    /* position: absolute; */
+    /* top: 20%; */
+    /* left: 45%; */
+}
+
+.subtitle {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 12px;
+    color: black;
+    font-size: large;
+    margin-top: 70%;
+    /* position: absolute; */
+    /* bottom: 20%; */
+    /* left: 40%; */
+}
+
+.image-container{
+    overflow: hidden;
+    height: 70%;
+    width: 33%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.textbox{
+    position: absolute;
+    top: 23%;
+    left: 38%;
+    width: 22em;
+    height: 26em;
+    /* border: 1px solid red; */
+}
